@@ -1,0 +1,32 @@
+.post-offices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 50px;
+  gap: 40px;
+}
+.head {
+  text-align: start;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.post-office {
+  border: 1px solid black;
+  text-align: left;
+  padding: 20px 40px;
+}
+.btn {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+}
+input {
+  width: 60vw;
+  padding: 15px;
+  border-radius: 10px;
+}
